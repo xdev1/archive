@@ -1,0 +1,1 @@
+import{adapt as e}from"js-element/core";export{Attr,attr,createEvent,createRef,defineProvider,intercept}from"js-element/core";import{Hole as t,render as r}from"uhtml";export{Hole,html,svg}from"uhtml";const{define:o,render:n}=e({isMountable:e=>e instanceof t,patchContent:(e,t)=>r(t,e)});export{o as define,n as render};

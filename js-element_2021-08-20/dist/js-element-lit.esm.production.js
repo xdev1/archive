@@ -1,0 +1,1 @@
+import{adapt as e}from"js-element/core";export{Attr,attr,createEvent,createRef,defineProvider,intercept}from"js-element/core";import{TemplateResult as t,render as r}from"lit-html";export{TemplateResult,html,svg}from"lit-html";const{define:o,render:n}=e({isMountable:e=>e instanceof t,patchContent:(e,t)=>r(e,t)});export{o as define,n as render};
